@@ -11,6 +11,8 @@ import java.util.List;
  */
 public class Contacto {
 
+
+
     /** Nombre del contacto  */
     private String name;
 
@@ -42,6 +44,23 @@ public class Contacto {
      */
     public List<String> getPhones() {
         return this.phones;
+    }
+
+
+    /**
+     * Método que permite asignar valor al atributo name
+     * @param name nombre del contacto
+     */
+    public void setName(String name){
+        this.name = name;
+    }
+
+    /**
+     * Método que pertmite asignar valor al atribuno phones
+     * @param phones número de teléfono del contacto
+     */
+    public void setPhones(List<String> phones){
+        this.phones = phones;
     }
 
 }
